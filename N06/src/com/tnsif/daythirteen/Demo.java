@@ -6,8 +6,8 @@ public class Demo {
 		ChildThreadOne t1 = new ChildThreadOne();
 	//	t1.setPriority(20); IllegalArgumentException
 		// converts application into single threaded
-		t1.run();
-		//
+		//t1.run();
+		
 	//	t1.start();
 	//	t1.start(); // IllegalThreadStateException
 		ChildThreadTwo t2 = new ChildThreadTwo();
