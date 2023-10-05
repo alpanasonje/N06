@@ -33,10 +33,10 @@ public class ArrayListThreadDemo {
               } catch (InterruptedException e) {
                   e.printStackTrace();
               }
-          synchronized (numbers) { //to ensure thread safety
+       //   synchronized (numbers) { //to ensure thread safety
                   numbers.add(i);
                   System.out.println("Produced: " + i);
-             }
+            // }
          }
       }
   }
@@ -52,12 +52,12 @@ public class ArrayListThreadDemo {
       @Override
       public void run() {
           while (true) {
-            synchronized (numbers) {  //to ensure thread safety
+         //   synchronized (numbers) {  //to ensure thread safety
                   if (!numbers.isEmpty()) {
                       int number = numbers.remove(0);
                       System.out.println("Consumed: " + number);
                   }
-              }
+            //  }
           }
       }
   }
