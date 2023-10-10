@@ -10,7 +10,7 @@ import java.util.Map.Entry;
 public class TreeMapDemo {
 
 	public static void main(String[] args) {
-		// ordered, unsorted map
+		// ordered, sorted map
 		TreeMap<String, String> persons = new TreeMap<String, String>();
 
 		persons.put("aniket@gmail.com", "Gaikwad Aniket");
@@ -40,10 +40,10 @@ public class TreeMapDemo {
 			System.out.println(rec.getKey() + " : " + rec.getValue());
 		}
 		System.out.println("-------------------------------");
-		Comparator<Student> comp=(s1,s2)->{
-			return s1.getName().compareTo(s2.getName());
-		};
 		
+		  Comparator<Student> comp=(s1,s2)->{ return
+		  s1.getName().compareTo(s2.getName()); };
+		 	
 		TreeMap<Student, String> studMap=new TreeMap<Student,String>(comp);
 		studMap.put(new Student(101,"Nikhil",67), "Mumbai");
 		studMap.put(new Student(105,"Ketan",71), "Pune");
