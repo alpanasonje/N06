@@ -6,7 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.30.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Hp/Downloads/0 Hibernate JAR Files/Hibernate/hibernate-core-5.3.7.Final.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Hp/Downloads/0 Hibernate JAR Files/Hibernate/jaxb-api-2.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Hp/Downloads/0 Hibernate JAR Files/Hibernate/mysql-connector-java-8.0.13.jar"/>
@@ -25,5 +24,6 @@
 	<classpathentry kind="lib" path="C:/Users/Hp/Downloads/0 Hibernate JAR Files/Hibernate/jstl-1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Hp/Downloads/0 Hibernate JAR Files/Hibernate/protobuf-java-3.6.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Hp/Downloads/0 Hibernate JAR Files/Hibernate/servlet-api-2.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
